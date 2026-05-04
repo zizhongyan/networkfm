@@ -1,0 +1,52 @@
+[build-system]
+requires = ["flit_core >=3.2,<4", "setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "networkfm"
+version = "0.8.1"
+description = "A Python package for the econometric analysis of the dyadic network formation models with degree heterogeneity"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    { name = "Zizhong Yan" }
+]
+license = { text = "MIT" }
+
+keywords = [
+    "econometrics",
+    "network formation",
+    "degree heterogeneity",
+    "python"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering"
+]
+
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "statsmodels"
+]
+
+[project.urls]
+Homepage = "https://github.com/zizhongyan/networkfm"
+Documentation = "https://networkfm.readthedocs.io/"
+Repository = "https://github.com/zizhongyan/networkfm"
+Issues = "https://github.com/zizhongyan/networkfm/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["networkfm*"]
