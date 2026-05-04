@@ -107,16 +107,17 @@ Visit the [project's documentation](https://networkfm.readthedocs.io/) for tutor
 - The repository bundles (vendors) several research codes used as benchmarks:
   - `ipt` (Graham, 2016) for common logit routines,
   - `netrics` (Graham, 2016) for tetrad logit,
-  - `quadlogit` the package Hu et al. (2025) based on the paper Jochmans (2018).
-
+  - `quadlogit` the package Hu et al. (2026) based on the paper Jochmans (2018).
 
 ## Citing `NetworkFm`
 
-Please cite the paper and the software when using this package.
+Please cite the paper and the software when using this package for implementing the penalized likelihood methods.
 
 - **Paper**: Yan, Zizhong; Li, Jingrong; Zhang, Yi (2026). “*Penalized Likelihood for Dyadic Network Formation Models with Degree Heterogeneity*”. *arXiv e-prints*, arXiv:2605.00771.
 
 - **Software**: Yan, Zizhong (2026). “*NetworkFm: A Python Package for Dyadic network formation models with degree heterogeneity*”   (Version 0.8.1) [Computer software]. Available at `https://github.com/zizhongyan/networkfm`  (Accessed 14 February 2026) .
+
+- If using the tetrad logit estimation, please kindly cite Graham (2016) and Graham (2017). 
 
 ## References
 - Graham, Bryan S. (2016). “netrics: a Python 3.7 package for econometric analysis of networks,” (Version 0.0.1) [Computer program]. Available at https://github.com/bryangraham/netrics (Accessed 04 October 2018) 
